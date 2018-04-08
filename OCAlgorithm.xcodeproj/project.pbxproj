@@ -10,6 +10,9 @@
 		2B57B15720730185005B8166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B15620730185005B8166 /* main.m */; };
 		2B57B160207301D3005B8166 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B15F207301D3005B8166 /* Node.m */; };
 		2B57B16420730289005B8166 /* DelRptNodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B16320730289005B8166 /* DelRptNodes.m */; };
+		2BC65622207996AD003A1E6C /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC65621207996AD003A1E6C /* QuickSort.m */; };
+		2BC65625207999CD003A1E6C /* HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC65624207999CD003A1E6C /* HeapSort.m */; };
+		2BC6562820799F40003A1E6C /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC6562720799F40003A1E6C /* MergeSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,12 @@
 		2B57B15F207301D3005B8166 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
 		2B57B16220730289005B8166 /* DelRptNodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelRptNodes.h; sourceTree = "<group>"; };
 		2B57B16320730289005B8166 /* DelRptNodes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelRptNodes.m; sourceTree = "<group>"; };
+		2BC65620207996AD003A1E6C /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		2BC65621207996AD003A1E6C /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
+		2BC65623207999CD003A1E6C /* HeapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
+		2BC65624207999CD003A1E6C /* HeapSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeapSort.m; sourceTree = "<group>"; };
+		2BC6562620799F40003A1E6C /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		2BC6562720799F40003A1E6C /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,7 @@
 		2B57B14A20730185005B8166 = {
 			isa = PBXGroup;
 			children = (
+				2BC6561C2079968E003A1E6C /* 排序 */,
 				2B57B15D207301B1005B8166 /* 链表 */,
 				2B57B15520730185005B8166 /* OCAlgorithm */,
 				2B57B15420730185005B8166 /* Products */,
@@ -86,6 +96,43 @@
 				2B57B16320730289005B8166 /* DelRptNodes.m */,
 			);
 			path = "删除链表中重复的结点";
+			sourceTree = "<group>";
+		};
+		2BC6561C2079968E003A1E6C /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				2BC6561D2079968E003A1E6C /* 堆排序 */,
+				2BC6561E2079968E003A1E6C /* 归并排序 */,
+				2BC6561F2079968E003A1E6C /* 快速排序 */,
+			);
+			path = "排序";
+			sourceTree = SOURCE_ROOT;
+		};
+		2BC6561D2079968E003A1E6C /* 堆排序 */ = {
+			isa = PBXGroup;
+			children = (
+				2BC65623207999CD003A1E6C /* HeapSort.h */,
+				2BC65624207999CD003A1E6C /* HeapSort.m */,
+			);
+			path = "堆排序";
+			sourceTree = "<group>";
+		};
+		2BC6561E2079968E003A1E6C /* 归并排序 */ = {
+			isa = PBXGroup;
+			children = (
+				2BC6562620799F40003A1E6C /* MergeSort.h */,
+				2BC6562720799F40003A1E6C /* MergeSort.m */,
+			);
+			path = "归并排序";
+			sourceTree = "<group>";
+		};
+		2BC6561F2079968E003A1E6C /* 快速排序 */ = {
+			isa = PBXGroup;
+			children = (
+				2BC65620207996AD003A1E6C /* QuickSort.h */,
+				2BC65621207996AD003A1E6C /* QuickSort.m */,
+			);
+			path = "快速排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +192,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC6562820799F40003A1E6C /* MergeSort.m in Sources */,
 				2B57B15720730185005B8166 /* main.m in Sources */,
+				2BC65625207999CD003A1E6C /* HeapSort.m in Sources */,
 				2B57B160207301D3005B8166 /* Node.m in Sources */,
 				2B57B16420730289005B8166 /* DelRptNodes.m in Sources */,
+				2BC65622207996AD003A1E6C /* QuickSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

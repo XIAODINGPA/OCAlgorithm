@@ -9,12 +9,18 @@
 #import <Foundation/Foundation.h>
 
 #import "DelRptNodes.h"
+#import "QuickSort.h"
+#import "HeapSort.h"
+#import "MergeSort.h"
 
 int main(int argc, const char * argv[]) {
     
     @autoreleasepool {
         
-        [DelRptNodes testMain];
+//        [DelRptNodes testMain];
+//        [QuickSort testMain];
+//        [HeapSort testMain];
+//        [MergeSort testMain];
     }
     return 0;
 }
