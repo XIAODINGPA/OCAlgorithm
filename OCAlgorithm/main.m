@@ -12,6 +12,7 @@
 #import "QuickSort.h"
 #import "HeapSort.h"
 #import "MergeSort.h"
+#import "ArraySolution.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -21,6 +22,7 @@ int main(int argc, const char * argv[]) {
 //        [QuickSort testMain];
 //        [HeapSort testMain];
 //        [MergeSort testMain];
+        [ArraySolution testMain];
     }
     return 0;
 }

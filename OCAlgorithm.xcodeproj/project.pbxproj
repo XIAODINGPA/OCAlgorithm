@@ -13,6 +13,7 @@
 		2BC65622207996AD003A1E6C /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC65621207996AD003A1E6C /* QuickSort.m */; };
 		2BC65625207999CD003A1E6C /* HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC65624207999CD003A1E6C /* HeapSort.m */; };
 		2BC6562820799F40003A1E6C /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC6562720799F40003A1E6C /* MergeSort.m */; };
+		2BE15E31207C406700EE8A7C /* ArraySolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE15E30207C406700EE8A7C /* ArraySolution.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		2BC65624207999CD003A1E6C /* HeapSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeapSort.m; sourceTree = "<group>"; };
 		2BC6562620799F40003A1E6C /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		2BC6562720799F40003A1E6C /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
+		2BE15E2F207C406700EE8A7C /* ArraySolution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArraySolution.h; sourceTree = "<group>"; };
+		2BE15E30207C406700EE8A7C /* ArraySolution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArraySolution.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			children = (
 				2BC6561C2079968E003A1E6C /* 排序 */,
 				2B57B15D207301B1005B8166 /* 链表 */,
+				2BE15E2D207C3F6200EE8A7C /* 数组 */,
 				2B57B15520730185005B8166 /* OCAlgorithm */,
 				2B57B15420730185005B8166 /* Products */,
 			);
@@ -135,6 +139,23 @@
 			path = "快速排序";
 			sourceTree = "<group>";
 		};
+		2BE15E2D207C3F6200EE8A7C /* 数组 */ = {
+			isa = PBXGroup;
+			children = (
+				2BE15E2E207C3F6200EE8A7C /* 二维数组中的查找 */,
+			);
+			path = "数组";
+			sourceTree = "<group>";
+		};
+		2BE15E2E207C3F6200EE8A7C /* 二维数组中的查找 */ = {
+			isa = PBXGroup;
+			children = (
+				2BE15E2F207C406700EE8A7C /* ArraySolution.h */,
+				2BE15E30207C406700EE8A7C /* ArraySolution.m */,
+			);
+			path = "二维数组中的查找";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BE15E31207C406700EE8A7C /* ArraySolution.m in Sources */,
 				2BC6562820799F40003A1E6C /* MergeSort.m in Sources */,
 				2B57B15720730185005B8166 /* main.m in Sources */,
 				2BC65625207999CD003A1E6C /* HeapSort.m in Sources */,
