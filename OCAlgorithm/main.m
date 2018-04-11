@@ -13,6 +13,7 @@
 #import "HeapSort.h"
 #import "MergeSort.h"
 #import "ArraySolution.h"
+#import "FindKNodeToTail.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -22,7 +23,8 @@ int main(int argc, const char * argv[]) {
 //        [QuickSort testMain];
 //        [HeapSort testMain];
 //        [MergeSort testMain];
-        [ArraySolution testMain];
+//        [ArraySolution testMain]
+        [FindKNodeToTail testMain];
     }
     return 0;
 }
