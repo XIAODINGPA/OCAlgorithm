@@ -62,9 +62,12 @@
 		2B57B14A20730185005B8166 = {
 			isa = PBXGroup;
 			children = (
-				2BC6561C2079968E003A1E6C /* 排序 */,
-				2B57B15D207301B1005B8166 /* 链表 */,
-				2BE15E2D207C3F6200EE8A7C /* 数组 */,
+				2BE15E2E207C3F6200EE8A7C /* 数组_二维数组中的查找 */,
+				2BB600A2207D90A300F99E8E /* 链表_删除倒数第k个节点 */,
+				2B57B16120730238005B8166 /* 链表_删除重复的结点 */,
+				2BC6561D2079968E003A1E6C /* 排序_堆排序 */,
+				2BC6561E2079968E003A1E6C /* 排序_归并排序 */,
+				2BC6561F2079968E003A1E6C /* 排序_快速排序 */,
 				2B57B15520730185005B8166 /* OCAlgorithm */,
 				2B57B15420730185005B8166 /* Products */,
 			);
@@ -81,92 +84,65 @@
 		2B57B15520730185005B8166 /* OCAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				2B57B15E207301D3005B8166 /* Node.h */,
+				2B57B15F207301D3005B8166 /* Node.m */,
 				2B57B15620730185005B8166 /* main.m */,
 			);
 			path = OCAlgorithm;
 			sourceTree = "<group>";
 		};
-		2B57B15D207301B1005B8166 /* 链表 */ = {
-			isa = PBXGroup;
-			children = (
-				2B57B15E207301D3005B8166 /* Node.h */,
-				2B57B15F207301D3005B8166 /* Node.m */,
-				2BB600A2207D90A300F99E8E /* 链表中倒数第k个节点 */,
-				2B57B16120730238005B8166 /* 删除链表中重复的结点 */,
-			);
-			path = "链表";
-			sourceTree = "<group>";
-		};
-		2B57B16120730238005B8166 /* 删除链表中重复的结点 */ = {
+		2B57B16120730238005B8166 /* 链表_删除重复的结点 */ = {
 			isa = PBXGroup;
 			children = (
 				2B57B16220730289005B8166 /* DelRptNodes.h */,
 				2B57B16320730289005B8166 /* DelRptNodes.m */,
 			);
-			path = "删除链表中重复的结点";
+			path = "链表_删除重复的结点";
 			sourceTree = "<group>";
 		};
-		2BB600A2207D90A300F99E8E /* 链表中倒数第k个节点 */ = {
+		2BB600A2207D90A300F99E8E /* 链表_删除倒数第k个节点 */ = {
 			isa = PBXGroup;
 			children = (
 				2BB600A3207D90EC00F99E8E /* FindKNodeToTail.h */,
 				2BB600A4207D90EC00F99E8E /* FindKNodeToTail.m */,
 			);
-			path = "链表中倒数第k个节点";
+			path = "链表_删除倒数第k个节点";
 			sourceTree = "<group>";
 		};
-		2BC6561C2079968E003A1E6C /* 排序 */ = {
-			isa = PBXGroup;
-			children = (
-				2BC6561D2079968E003A1E6C /* 堆排序 */,
-				2BC6561E2079968E003A1E6C /* 归并排序 */,
-				2BC6561F2079968E003A1E6C /* 快速排序 */,
-			);
-			path = "排序";
-			sourceTree = SOURCE_ROOT;
-		};
-		2BC6561D2079968E003A1E6C /* 堆排序 */ = {
+		2BC6561D2079968E003A1E6C /* 排序_堆排序 */ = {
 			isa = PBXGroup;
 			children = (
 				2BC65623207999CD003A1E6C /* HeapSort.h */,
 				2BC65624207999CD003A1E6C /* HeapSort.m */,
 			);
-			path = "堆排序";
+			path = "排序_堆排序";
 			sourceTree = "<group>";
 		};
-		2BC6561E2079968E003A1E6C /* 归并排序 */ = {
+		2BC6561E2079968E003A1E6C /* 排序_归并排序 */ = {
 			isa = PBXGroup;
 			children = (
 				2BC6562620799F40003A1E6C /* MergeSort.h */,
 				2BC6562720799F40003A1E6C /* MergeSort.m */,
 			);
-			path = "归并排序";
+			path = "排序_归并排序";
 			sourceTree = "<group>";
 		};
-		2BC6561F2079968E003A1E6C /* 快速排序 */ = {
+		2BC6561F2079968E003A1E6C /* 排序_快速排序 */ = {
 			isa = PBXGroup;
 			children = (
 				2BC65620207996AD003A1E6C /* QuickSort.h */,
 				2BC65621207996AD003A1E6C /* QuickSort.m */,
 			);
-			path = "快速排序";
+			path = "排序_快速排序";
 			sourceTree = "<group>";
 		};
-		2BE15E2D207C3F6200EE8A7C /* 数组 */ = {
-			isa = PBXGroup;
-			children = (
-				2BE15E2E207C3F6200EE8A7C /* 二维数组中的查找 */,
-			);
-			path = "数组";
-			sourceTree = "<group>";
-		};
-		2BE15E2E207C3F6200EE8A7C /* 二维数组中的查找 */ = {
+		2BE15E2E207C3F6200EE8A7C /* 数组_二维数组中的查找 */ = {
 			isa = PBXGroup;
 			children = (
 				2BE15E2F207C406700EE8A7C /* ArraySolution.h */,
 				2BE15E30207C406700EE8A7C /* ArraySolution.m */,
 			);
-			path = "二维数组中的查找";
+			path = "数组_二维数组中的查找";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
