@@ -14,6 +14,9 @@
 #import "MergeSort.h"
 #import "ArraySolution.h"
 #import "FindKNodeToTail.h"
+#import "LogNodeFromTail.h"
+#import "RevolvingArray.h"
+#import "OddEvenArySort.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -24,7 +27,10 @@ int main(int argc, const char * argv[]) {
 //        [HeapSort testMain];
 //        [MergeSort testMain];
 //        [ArraySolution testMain]
-        [FindKNodeToTail testMain];
+//        [FindKNodeToTail testMain];
+//        [LogNodeFromTail testMain];
+//        [RevolvingArray testMain];
+        [OddEvenArySort testMain];
     }
     return 0;
 }
