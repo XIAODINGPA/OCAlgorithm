@@ -17,6 +17,7 @@
 #import "LogNodeFromTail.h"
 #import "RevolvingArray.h"
 #import "OddEvenArySort.h"
+#import "MathPower.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -30,7 +31,8 @@ int main(int argc, const char * argv[]) {
 //        [FindKNodeToTail testMain];
 //        [LogNodeFromTail testMain];
 //        [RevolvingArray testMain];
-        [OddEvenArySort testMain];
+//        [OddEvenArySort testMain];
+        [MathPower testMain];
     }
     return 0;
 }
