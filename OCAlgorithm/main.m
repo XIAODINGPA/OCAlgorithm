@@ -19,6 +19,7 @@
 #import "OddEvenArySort.h"
 #import "ReverseNode.h"
 #import "MathPower.h"
+#import "StringAllOutput.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -34,7 +35,8 @@ int main(int argc, const char * argv[]) {
 //        [RevolvingArray testMain];
 //        [OddEvenArySort testMain];
 //        [MathPower testMain];
-        [ReverseNode testMain];
+//        [ReverseNode testMain];
+        [StringAllOutput testMain];
     }
     return 0;
 }
