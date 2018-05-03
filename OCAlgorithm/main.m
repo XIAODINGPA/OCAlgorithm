@@ -20,6 +20,7 @@
 #import "ReverseNode.h"
 #import "MathPower.h"
 #import "StringAllOutput.h"
+#import "LogAllNumber.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -36,7 +37,8 @@ int main(int argc, const char * argv[]) {
 //        [OddEvenArySort testMain];
 //        [MathPower testMain];
 //        [ReverseNode testMain];
-        [StringAllOutput testMain];
+//        [StringAllOutput testMain];
+        [LogAllNumber testMain];
     }
     return 0;
 }

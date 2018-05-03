@@ -17,6 +17,7 @@
 		2BB1BCED20842739006326BF /* RevolvingArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB1BCEC20842739006326BF /* RevolvingArray.m */; };
 		2BB1BCF120842F00006326BF /* OddEvenArySort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB1BCF020842F00006326BF /* OddEvenArySort.m */; };
 		2BB600A5207D90EC00F99E8E /* FindKNodeToTail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB600A4207D90EC00F99E8E /* FindKNodeToTail.m */; };
+		2BBE79B920915E7300A6C260 /* LogAllNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE79B820915E7300A6C260 /* LogAllNumber.m */; };
 		2BC65622207996AD003A1E6C /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC65621207996AD003A1E6C /* QuickSort.m */; };
 		2BC65625207999CD003A1E6C /* HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC65624207999CD003A1E6C /* HeapSort.m */; };
 		2BC6562820799F40003A1E6C /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC6562720799F40003A1E6C /* MergeSort.m */; };
@@ -56,6 +57,8 @@
 		2BB1BCF020842F00006326BF /* OddEvenArySort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OddEvenArySort.m; sourceTree = "<group>"; };
 		2BB600A3207D90EC00F99E8E /* FindKNodeToTail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindKNodeToTail.h; sourceTree = "<group>"; };
 		2BB600A4207D90EC00F99E8E /* FindKNodeToTail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindKNodeToTail.m; sourceTree = "<group>"; };
+		2BBE79B720915E7300A6C260 /* LogAllNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogAllNumber.h; sourceTree = "<group>"; };
+		2BBE79B820915E7300A6C260 /* LogAllNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogAllNumber.m; sourceTree = "<group>"; };
 		2BC65620207996AD003A1E6C /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
 		2BC65621207996AD003A1E6C /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
 		2BC65623207999CD003A1E6C /* HeapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
@@ -81,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				2B5FE6F7208EB63E00D0640C /* 字符串_字符串全排列 */,
+				2BBE79B620915E5000A6C260 /* 数字_输出1到N的所有数 */,
 				2BAB5326208575E300F4E564 /* 数字_数的整数次方 */,
 				2BB1BCEE20842EC2006326BF /* 数组_奇数位于偶数前面 */,
 				2BB1BCE7208426DE006326BF /* 数组_旋转数组的最小数字 */,
@@ -187,6 +191,15 @@
 			path = "链表_删除倒数第k个节点";
 			sourceTree = "<group>";
 		};
+		2BBE79B620915E5000A6C260 /* 数字_输出1到N的所有数 */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE79B720915E7300A6C260 /* LogAllNumber.h */,
+				2BBE79B820915E7300A6C260 /* LogAllNumber.m */,
+			);
+			path = "数字_输出1到N的所有数";
+			sourceTree = "<group>";
+		};
 		2BC6561D2079968E003A1E6C /* 排序_堆排序 */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +302,7 @@
 				2BB600A5207D90EC00F99E8E /* FindKNodeToTail.m in Sources */,
 				2BC65625207999CD003A1E6C /* HeapSort.m in Sources */,
 				2B57B160207301D3005B8166 /* Node.m in Sources */,
+				2BBE79B920915E7300A6C260 /* LogAllNumber.m in Sources */,
 				2B5FE6FA208EB79100D0640C /* StringAllOutput.m in Sources */,
 				2B57B16420730289005B8166 /* DelRptNodes.m in Sources */,
 				2BAB532920857A0200F4E564 /* MathPower.m in Sources */,
