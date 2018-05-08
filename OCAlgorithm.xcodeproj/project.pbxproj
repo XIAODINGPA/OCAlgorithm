@@ -13,6 +13,7 @@
 		2B5FE6FA208EB79100D0640C /* StringAllOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5FE6F9208EB79100D0640C /* StringAllOutput.m */; };
 		2BA5E57E208D600200F0745B /* ReverseNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5E57D208D600200F0745B /* ReverseNode.m */; };
 		2BAB532920857A0200F4E564 /* MathPower.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB532820857A0200F4E564 /* MathPower.m */; };
+		2BADA56F209FD3F700ECD528 /* RandomNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BADA56E209FD3F700ECD528 /* RandomNode.m */; };
 		2BB1BCE6208424E4006326BF /* LogNodeFromTail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB1BCE5208424E4006326BF /* LogNodeFromTail.m */; };
 		2BB1BCED20842739006326BF /* RevolvingArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB1BCEC20842739006326BF /* RevolvingArray.m */; };
 		2BB1BCF120842F00006326BF /* OddEvenArySort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB1BCF020842F00006326BF /* OddEvenArySort.m */; };
@@ -49,6 +50,8 @@
 		2BA5E57D208D600200F0745B /* ReverseNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseNode.m; sourceTree = "<group>"; };
 		2BAB532720857A0200F4E564 /* MathPower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathPower.h; sourceTree = "<group>"; };
 		2BAB532820857A0200F4E564 /* MathPower.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathPower.m; sourceTree = "<group>"; };
+		2BADA56D209FD3F700ECD528 /* RandomNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomNode.h; sourceTree = "<group>"; };
+		2BADA56E209FD3F700ECD528 /* RandomNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomNode.m; sourceTree = "<group>"; };
 		2BB1BCE4208424E4006326BF /* LogNodeFromTail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogNodeFromTail.h; sourceTree = "<group>"; };
 		2BB1BCE5208424E4006326BF /* LogNodeFromTail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogNodeFromTail.m; sourceTree = "<group>"; };
 		2BB1BCEB20842739006326BF /* RevolvingArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevolvingArray.h; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				2BB1BCEE20842EC2006326BF /* 数组_奇数位于偶数前面 */,
 				2BB1BCE7208426DE006326BF /* 数组_旋转数组的最小数字 */,
 				2BE15E2E207C3F6200EE8A7C /* 数组_二维数组中的查找 */,
+				2BADA56C209FD38600ECD528 /* 链表_复杂链表的复制 */,
+				2BA5F015209A949E00B20061 /* 链表_合并两个有序链表 */,
 				2BA5E57B208D5FD500F0745B /* 链表_反转链表 */,
 				2BB1BCE3208424AE006326BF /* 链表_从尾到头打印链表 */,
 				2BB600A2207D90A300F99E8E /* 链表_删除倒数第k个节点 */,
@@ -146,6 +151,13 @@
 			path = "链表_反转链表";
 			sourceTree = "<group>";
 		};
+		2BA5F015209A949E00B20061 /* 链表_合并两个有序链表 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "链表_合并两个有序链表";
+			sourceTree = "<group>";
+		};
 		2BAB5326208575E300F4E564 /* 数字_数的整数次方 */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +165,15 @@
 				2BAB532820857A0200F4E564 /* MathPower.m */,
 			);
 			path = "数字_数的整数次方";
+			sourceTree = "<group>";
+		};
+		2BADA56C209FD38600ECD528 /* 链表_复杂链表的复制 */ = {
+			isa = PBXGroup;
+			children = (
+				2BADA56D209FD3F700ECD528 /* RandomNode.h */,
+				2BADA56E209FD3F700ECD528 /* RandomNode.m */,
+			);
+			path = "链表_复杂链表的复制";
 			sourceTree = "<group>";
 		};
 		2BB1BCE3208424AE006326BF /* 链表_从尾到头打印链表 */ = {
@@ -307,6 +328,7 @@
 				2B57B16420730289005B8166 /* DelRptNodes.m in Sources */,
 				2BAB532920857A0200F4E564 /* MathPower.m in Sources */,
 				2BB1BCE6208424E4006326BF /* LogNodeFromTail.m in Sources */,
+				2BADA56F209FD3F700ECD528 /* RandomNode.m in Sources */,
 				2BC65622207996AD003A1E6C /* QuickSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

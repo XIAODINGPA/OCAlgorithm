@@ -21,6 +21,7 @@
 #import "MathPower.h"
 #import "StringAllOutput.h"
 #import "LogAllNumber.h"
+#import "RandomNode.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -38,7 +39,8 @@ int main(int argc, const char * argv[]) {
 //        [MathPower testMain];
 //        [ReverseNode testMain];
 //        [StringAllOutput testMain];
-        [LogAllNumber testMain];
+//        [LogAllNumber testMain];
+        [RandomNode testMain];
     }
     return 0;
 }
