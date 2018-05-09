@@ -22,6 +22,7 @@
 #import "StringAllOutput.h"
 #import "LogAllNumber.h"
 #import "RandomNode.h"
+#import "TopKNumber.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -40,7 +41,8 @@ int main(int argc, const char * argv[]) {
 //        [ReverseNode testMain];
 //        [StringAllOutput testMain];
 //        [LogAllNumber testMain];
-        [RandomNode testMain];
+//        [RandomNode testMain];
+        [TopKNumber testMain];
     }
     return 0;
 }

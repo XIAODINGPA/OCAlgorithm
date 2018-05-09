@@ -11,6 +11,7 @@
 		2B57B160207301D3005B8166 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B15F207301D3005B8166 /* Node.m */; };
 		2B57B16420730289005B8166 /* DelRptNodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B16320730289005B8166 /* DelRptNodes.m */; };
 		2B5FE6FA208EB79100D0640C /* StringAllOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5FE6F9208EB79100D0640C /* StringAllOutput.m */; };
+		2B64DE5320A27A21009B5DD2 /* TopKNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B64DE5220A27A21009B5DD2 /* TopKNumber.m */; };
 		2BA5E57E208D600200F0745B /* ReverseNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA5E57D208D600200F0745B /* ReverseNode.m */; };
 		2BAB532920857A0200F4E564 /* MathPower.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB532820857A0200F4E564 /* MathPower.m */; };
 		2BADA56F209FD3F700ECD528 /* RandomNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BADA56E209FD3F700ECD528 /* RandomNode.m */; };
@@ -46,6 +47,8 @@
 		2B57B16320730289005B8166 /* DelRptNodes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelRptNodes.m; sourceTree = "<group>"; };
 		2B5FE6F8208EB79100D0640C /* StringAllOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringAllOutput.h; sourceTree = "<group>"; };
 		2B5FE6F9208EB79100D0640C /* StringAllOutput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringAllOutput.m; sourceTree = "<group>"; };
+		2B64DE5120A27A21009B5DD2 /* TopKNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopKNumber.h; sourceTree = "<group>"; };
+		2B64DE5220A27A21009B5DD2 /* TopKNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopKNumber.m; sourceTree = "<group>"; };
 		2BA5E57C208D600200F0745B /* ReverseNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseNode.h; sourceTree = "<group>"; };
 		2BA5E57D208D600200F0745B /* ReverseNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseNode.m; sourceTree = "<group>"; };
 		2BAB532720857A0200F4E564 /* MathPower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathPower.h; sourceTree = "<group>"; };
@@ -89,6 +92,7 @@
 				2B5FE6F7208EB63E00D0640C /* 字符串_字符串全排列 */,
 				2BBE79B620915E5000A6C260 /* 数字_输出1到N的所有数 */,
 				2BAB5326208575E300F4E564 /* 数字_数的整数次方 */,
+				2B64DE5020A279F4009B5DD2 /* 数组_寻找最大第K个数 */,
 				2BB1BCEE20842EC2006326BF /* 数组_奇数位于偶数前面 */,
 				2BB1BCE7208426DE006326BF /* 数组_旋转数组的最小数字 */,
 				2BE15E2E207C3F6200EE8A7C /* 数组_二维数组中的查找 */,
@@ -140,6 +144,15 @@
 				2B5FE6F9208EB79100D0640C /* StringAllOutput.m */,
 			);
 			path = "字符串_字符串全排列";
+			sourceTree = "<group>";
+		};
+		2B64DE5020A279F4009B5DD2 /* 数组_寻找最大第K个数 */ = {
+			isa = PBXGroup;
+			children = (
+				2B64DE5120A27A21009B5DD2 /* TopKNumber.h */,
+				2B64DE5220A27A21009B5DD2 /* TopKNumber.m */,
+			);
+			path = "数组_寻找最大第K个数";
 			sourceTree = "<group>";
 		};
 		2BA5E57B208D5FD500F0745B /* 链表_反转链表 */ = {
@@ -318,6 +331,7 @@
 				2BE15E31207C406700EE8A7C /* ArraySolution.m in Sources */,
 				2BB1BCF120842F00006326BF /* OddEvenArySort.m in Sources */,
 				2BC6562820799F40003A1E6C /* MergeSort.m in Sources */,
+				2B64DE5320A27A21009B5DD2 /* TopKNumber.m in Sources */,
 				2B57B15720730185005B8166 /* main.m in Sources */,
 				2BA5E57E208D600200F0745B /* ReverseNode.m in Sources */,
 				2BB600A5207D90EC00F99E8E /* FindKNodeToTail.m in Sources */,
