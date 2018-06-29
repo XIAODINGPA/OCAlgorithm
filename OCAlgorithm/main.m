@@ -42,7 +42,7 @@ int main(int argc, const char * argv[]) {
 //        [StringAllOutput testMain];
 //        [LogAllNumber testMain];
 //        [RandomNode testMain];
-//        [TopKNumber testMain];
+        [TopKNumber testMain];
     }
     return 0;
 }
