@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0AF54A20EB966C008431E5 /* AddTwoNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0AF54920EB966C008431E5 /* AddTwoNode.m */; };
+		2B0AF54E20EB9C5B008431E5 /* SeeperArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0AF54D20EB9C5B008431E5 /* SeeperArray.m */; };
 		2B57B15720730185005B8166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B15620730185005B8166 /* main.m */; };
 		2B57B160207301D3005B8166 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B15F207301D3005B8166 /* Node.m */; };
 		2B57B16420730289005B8166 /* DelRptNodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B16320730289005B8166 /* DelRptNodes.m */; };
@@ -39,6 +41,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B0AF54820EB966C008431E5 /* AddTwoNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTwoNode.h; sourceTree = "<group>"; };
+		2B0AF54920EB966C008431E5 /* AddTwoNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTwoNode.m; sourceTree = "<group>"; };
+		2B0AF54C20EB9C5B008431E5 /* SeeperArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeeperArray.h; sourceTree = "<group>"; };
+		2B0AF54D20EB9C5B008431E5 /* SeeperArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeeperArray.m; sourceTree = "<group>"; };
 		2B57B15320730185005B8166 /* OCAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B57B15620730185005B8166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B57B15E207301D3005B8166 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
@@ -86,9 +92,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B0AF54720EB9645008431E5 /* 链表_两个正整数之和 */ = {
+			isa = PBXGroup;
+			children = (
+				2B0AF54820EB966C008431E5 /* AddTwoNode.h */,
+				2B0AF54920EB966C008431E5 /* AddTwoNode.m */,
+			);
+			path = "链表_两个正整数之和";
+			sourceTree = "<group>";
+		};
+		2B0AF54B20EB9C39008431E5 /* 数组_水坑问题 */ = {
+			isa = PBXGroup;
+			children = (
+				2B0AF54C20EB9C5B008431E5 /* SeeperArray.h */,
+				2B0AF54D20EB9C5B008431E5 /* SeeperArray.m */,
+			);
+			path = "数组_水坑问题";
+			sourceTree = "<group>";
+		};
 		2B57B14A20730185005B8166 = {
 			isa = PBXGroup;
 			children = (
+				2B0AF54B20EB9C39008431E5 /* 数组_水坑问题 */,
 				2B5FE6F7208EB63E00D0640C /* 字符串_字符串全排列 */,
 				2BBE79B620915E5000A6C260 /* 数字_输出1到N的所有数 */,
 				2BAB5326208575E300F4E564 /* 数字_数的整数次方 */,
@@ -96,6 +121,7 @@
 				2BB1BCEE20842EC2006326BF /* 数组_奇数位于偶数前面 */,
 				2BB1BCE7208426DE006326BF /* 数组_旋转数组的最小数字 */,
 				2BE15E2E207C3F6200EE8A7C /* 数组_二维数组中的查找 */,
+				2B0AF54720EB9645008431E5 /* 链表_两个正整数之和 */,
 				2BADA56C209FD38600ECD528 /* 链表_复杂链表的复制 */,
 				2BA5E57B208D5FD500F0745B /* 链表_反转链表 */,
 				2BB1BCE3208424AE006326BF /* 链表_从尾到头打印链表 */,
@@ -323,6 +349,8 @@
 				2BE15E31207C406700EE8A7C /* ArraySolution.m in Sources */,
 				2BB1BCF120842F00006326BF /* OddEvenArySort.m in Sources */,
 				2BC6562820799F40003A1E6C /* MergeSort.m in Sources */,
+				2B0AF54E20EB9C5B008431E5 /* SeeperArray.m in Sources */,
+				2B0AF54A20EB966C008431E5 /* AddTwoNode.m in Sources */,
 				2B64DE5320A27A21009B5DD2 /* TopKNumber.m in Sources */,
 				2B57B15720730185005B8166 /* main.m in Sources */,
 				2BA5E57E208D600200F0745B /* ReverseNode.m in Sources */,
@@ -449,7 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4Q6DMCF59Z;
+				DEVELOPMENT_TEAM = 38FAUWW58Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -458,7 +486,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4Q6DMCF59Z;
+				DEVELOPMENT_TEAM = 38FAUWW58Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

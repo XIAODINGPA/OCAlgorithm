@@ -23,6 +23,8 @@
 #import "LogAllNumber.h"
 #import "RandomNode.h"
 #import "TopKNumber.h"
+#import "AddTwoNode.h"
+#import "SeeperArray.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -43,6 +45,8 @@ int main(int argc, const char * argv[]) {
 //        [LogAllNumber testMain];
 //        [RandomNode testMain];
 //        [TopKNumber testMain];
+//        [AddTwoNode testMain];
+        [SeeperArray testMain];
     }
     return 0;
 }
