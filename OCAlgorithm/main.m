@@ -41,12 +41,10 @@ int main(int argc, const char * argv[]) {
 //        [OddEvenArySort testMain];
 //        [MathPower testMain];
 //        [ReverseNode testMain];
-//        [StringAllOutput testMain];
-//        [LogAllNumber testMain];
-//        [RandomNode testMain];
-//        [TopKNumber testMain];
-//        [AddTwoNode testMain];
-        [SeeperArray testMain];
+        [StringAllOutput testMain];
+        [LogAllNumber testMain];
+        [RandomNode testMain];
+        [TopKNumber testMain];
     }
     return 0;
 }
