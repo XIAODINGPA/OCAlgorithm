@@ -40,7 +40,7 @@ int main(int argc, const char * argv[]) {
 //        [RevolvingArray testMain];
 //        [OddEvenArySort testMain];
 //        [MathPower testMain];
-//        [ReverseNode testMain];
+        [ReverseNode testMain];
         [StringAllOutput testMain];
         [LogAllNumber testMain];
         [RandomNode testMain];
